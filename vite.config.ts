@@ -8,5 +8,10 @@ export default defineConfig({
   plugins: [react(), eslint(), svgr()],
   server: {
     host: '0.0.0.0'
+  },
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly'
+    }
   }
 });
