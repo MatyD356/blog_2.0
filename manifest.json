@@ -3,7 +3,7 @@
   "name": "Blog_2.0",
   "icons": [
     {
-      "src": "favicon.svg",
+      "src": "./src/assets/icons/favicon.svg",
       "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
       "type": "image/svg+xml",
       "purpose": "any"
