@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import classes from './layout.module.css';
 export default function Layout() {
   return (
@@ -9,6 +9,7 @@ export default function Layout() {
         <nav></nav>
       </aside>
       <main id="detail">
+        <Link to="./addPost">AddPost</Link>
         <Outlet />
       </main>
     </>

@@ -18,5 +18,5 @@ export default function Home(props: HomeProps) {
 }
 
 export async function loader() {
-  return await new Promise<string[]>((resolve) => setTimeout(() => resolve(['hi']), 500));
+  return await new Promise<string[]>((resolve) => setTimeout(() => resolve(['hi']), 0));
 }
