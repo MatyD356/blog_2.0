@@ -6,7 +6,6 @@ export default function AddPost() {
   const posts = useLoaderData() as Post[];
   return (
     <div className={classes.title}>
-      AddPost
       {posts.map((item, index) => (
         <p key={index}>
           {item.body}, {item.title}

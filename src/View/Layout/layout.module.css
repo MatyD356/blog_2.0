@@ -1,3 +1,8 @@
-.sidebar-color {
-  color: red;
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  flex: 1;
 }
